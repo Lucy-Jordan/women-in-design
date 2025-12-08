@@ -1,0 +1,154 @@
+body {
+    background: #f7f7f7;
+    color: #333333;
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 300;
+}
+section, header {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+header h1, h2, blockquote {
+    font-family: "Merriweather", serif;
+    color: #b57034;
+}
+
+header h1 {
+    font-size: 7.451rem;
+    line-height: 1;
+     color: #AE821C;
+     margin: 5rem 0 1rem 0;
+}
+
+h2 {
+    font-size: 1.953rem;
+}
+header h2 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 300;
+    color: #181818;
+    font-style: oblique;
+    margin-bottom: 4rem;
+}
+
+p{
+    line-height: 1.6;
+}
+
+header p {
+    font-size: 1.562rem;
+    font-family: "Merriweather", serif;
+    color: #795433;
+}
+blockquote{
+margin: 4rem 0 2rem 0;
+ }
+
+blockquote {
+    line-height: 1.6;
+    font-style: italic;
+    font-size: 1.562rem;
+    hanging-punctuation: first;
+    text-indent: -0.6rem;
+}
+
+hr {
+    margin: 3rem 0 5rem 0;
+}
+
+/*-- Styling links --*/
+a {
+    color: sienna;
+    text-decoration: none;
+   }
+
+a:hover {
+    color: #743B09;
+}
+/*-- navigation --*/
+.responsivenav {
+    background: #743B09;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    padding-left: 35px;
+}
+
+/*-- Adding responsive element to images --*/
+.gridimage {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+
+nav {
+    display: ;
+}
+
+
+nav ul {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding-right: 70px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+
+nav a {
+    border-bottom: none;
+    color: #f7f7f7;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #AE821C;
+    transition: all 0.3s ease-in-out; 
+}
+
+/*--  Styling Footer  --*/
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 4rem 0;
+}
+.light {
+    background-color: khaki;
+    padding: 3rem 0;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+}
+footer a:hover {
+    color: #AE821C;
+}
+
+/*-- Adding media queries for different devices --*/ 
+@media (max-width: 600px) {
+header h1 {
+    font-size: 4rem;
+}
+
+.gridimage {
+    row-gap: 10px;
+}
+}
