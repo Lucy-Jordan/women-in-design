@@ -1,6 +1,6 @@
 body {
     background: #f7f7f7;
-    color: #333333;
+    color: #000000;
     font-family: "Merriweather Sans", sans-serif;
     font-weight: 300;
 }
@@ -13,37 +13,40 @@ section, header {
 
 header h1, h2, blockquote {
     font-family: "Merriweather", serif;
-    color: #b57034;
+    color: cadetblue;
 }
 
 header h1 {
-    font-size: 7.451rem;
+    font-size: 5rem;
     line-height: 1;
-     color: #AE821C;
-     margin: 5rem 0 1rem 0;
+     color: rgb(207, 5, 106);
+     margin: 0rem 0 0rem 0;
 }
 
 h2 {
-    font-size: 1.953rem;
+    font-size: 1.8rem;
 }
 header h2 {
     font-family: "Merriweather Sans", sans-serif;
     font-weight: 300;
-    color: #181818;
+    color: rgb(53, 93, 146);
     font-style: oblique;
     margin-bottom: 4rem;
 }
+
+header h4 {
+    font-size: 5rem;
+    line-height: 1;
+     color: rgb(75, 121, 180);
+     margin: 0rem 0 0rem 0;
+}
+
 
 p{
     line-height: 1.6;
 }
 
-header p {
-    font-size: 1.562rem;
-    font-family: "Merriweather", serif;
-    color: #795433;
-}
-blockquote{
+e{
 margin: 4rem 0 2rem 0;
  }
 
@@ -61,21 +64,22 @@ hr {
 
 /*-- Styling links --*/
 a {
-    color: sienna;
+    color: rgb(255, 255, 255);
     text-decoration: none;
    }
 
 a:hover {
-    color: #743B09;
+    color: rgb(64, 124, 126);
 }
 /*-- navigation --*/
 .responsivenav {
-    background: #743B09;
-    padding: 10px;
+    background: cadetblue;
+    padding: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 #logo {
     font-size: 2rem;
@@ -94,7 +98,7 @@ a:hover {
 
 
 nav {
-    display: ;
+    display: inline;
 }
 
 
@@ -118,20 +122,27 @@ nav a {
 }
 
 nav a:hover {
-    color: #AE821C;
+    color: rgb(64, 124, 126);
     transition: all 0.3s ease-in-out; 
 }
 
+h1 {
+    font-size: 1.562rem;
+    font-family: "Merriweather", serif;
+    color: rgb(75, 121, 180);
+}
+
+
 /*--  Styling Footer  --*/
 footer {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(95, 158, 160);
     color: #ffffff;
     text-align: center;
     font-size: 0.8rem;
     padding: 4rem 0;
 }
 .light {
-    background-color: khaki;
+    background-color: rgb(252, 255, 255);
     padding: 3rem 0;
 }
 
@@ -139,11 +150,12 @@ footer a {
     color: rgb(255, 255, 255);
 }
 footer a:hover {
-    color: #AE821C;
+      color: rgb(64, 124, 126);
 }
 
+
 /*-- Adding media queries for different devices --*/ 
-@media (max-width: 600px) {
+@media (max-width: 600px) {}
 header h1 {
     font-size: 4rem;
 }
@@ -151,4 +163,8 @@ header h1 {
 .gridimage {
     row-gap: 10px;
 }
+img {
+    width: 100%;
+    height: auto;
 }
+
